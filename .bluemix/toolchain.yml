@@ -26,8 +26,8 @@ services:
     service_id: githubpublic
     parameters:
       repo_name: '{{toolchain.name}}'
-      repo_url: 'https://github.com/uditrpanchal/css-server-toolchain'
-      type: clone
+      repo_url: 'https://github.com/MOHLTC11/PatientPortal_Angular'
+      type: existing
       has_issues: true
       enable_traceability: true
   sample-build:
